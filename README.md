@@ -1,5 +1,6 @@
 
 📌 Overview
+
 Customer segmentation is a powerful technique in marketing and business strategy, where customers are grouped based on similarities in their characteristics or behavior. This project applies K-Means Clustering, an unsupervised machine learning algorithm, to automatically segment customers using features like income and spending score.
 
 These insights help businesses personalize marketing, enhance customer experience, and increase profitability.
