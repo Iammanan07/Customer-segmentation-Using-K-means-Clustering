@@ -1,62 +1,79 @@
+# 🎯 Customer Segmentation using K-Means Clustering
 
-📌 Overview
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Scikit--Learn-1.4.2-orange?style=flat-square" />
+  <img src="https://img.shields.io/badge/Project-Type-ML%20Project-ff69b4?style=flat-square" />
+  <img src="https://img.shields.io/badge/Clustering-KMeans-yellowgreen?style=flat-square" />
+</p>
 
-Customer segmentation is a powerful technique in marketing and business strategy, where customers are grouped based on similarities in their characteristics or behavior. This project applies K-Means Clustering, an unsupervised machine learning algorithm, to automatically segment customers using features like income and spending score.
+---
 
-These insights help businesses personalize marketing, enhance customer experience, and increase profitability.
+## 🧠 Project Overview
 
-🌍 Real-World Applications
-🛒 Retail & E-commerce – Personalized promotions based on customer behavior
+Customer segmentation is the process of dividing customers into groups based on common characteristics so companies can market to each group effectively and appropriately. In this project, I used **K-Means Clustering** to segment customers based on their **Annual Income** and **Spending Score** using the [Mall Customers Dataset](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial).
 
-💳 Banking & Finance – Targeted financial products for different income groups
+---
 
-🧳 Travel & Hospitality – Bundling offers for frequent travelers vs. occasional users
+## 📌 Key Features
 
-📱 Telecom – Customer retention strategies and loyalty programs
+- 🎯 Identified customer clusters using **unsupervised learning (K-Means)**
+- 📊 Visualized clusters in 2D using **scatter plots**
+- 📈 Used **Elbow Method** to determine optimal number of clusters
+- 🛒 Useful insights for targeted marketing strategies
 
-🏥 Healthcare – Grouping patients by treatment needs and lifestyle factors
+---
 
-🧰 Technologies Used
-Python 3.8+
+## 📂 Folder Structure
 
-Pandas, NumPy – Data manipulation
 
-Scikit-learn – K-Means algorithm, preprocessing
+---
 
-Matplotlib, Seaborn – Data visualization
+## 📉 Data Used
 
-📁 Dataset
-Example features used for segmentation:
+- **Dataset Name**: Mall Customers Dataset
+- **Attributes**:
+  - CustomerID
+  - Gender
+  - Age
+  - Annual Income (k$)
+  - Spending Score (1–100)
 
-CustomerID
+---
 
-Age
+## 🛠 Tech Stack
 
-Gender
+| Tool          | Usage                          |
+|---------------|--------------------------------|
+| `Python`      | Programming language           |
+| `Pandas`      | Data manipulation              |
+| `Matplotlib`  | Data visualization             |
+| `Seaborn`     | Enhanced visualization         |
+| `Scikit-Learn`| KMeans clustering & modeling   |
 
-Annual Income (k$)
+---
 
-Spending Score (1–100)
+## 📊 Visualizations
 
-You can replace this with real-world customer datasets (e.g., e-commerce or CRM data).
-📈 Output
-Clustered customer segments visualized in 2D/3D
+<p align="center">
+  <img src="notebook/kmeans-cluster-output.png" alt="KMeans Cluster" width="600">
+</p>
 
-Labeled dataset with assigned cluster IDs
+---
 
-Insightful business recommendations for each segment
+## 📌 Insights from Clustering
 
-✅ Future Improvements
-Add silhouette analysis for optimal cluster validation
+- Cluster 1: High income, low spenders → potential premium customers
+- Cluster 2: Low income, high spenders → impulsive buyers
+- Cluster 3: Balanced income & spend → average customers
+- Cluster 4: High income, high spend → target for loyalty programs
+- Cluster 5: Low income, low spend → low priority
 
-Incorporate Principal Component Analysis (PCA) for high-dimensional data
+---
 
-Create a web dashboard for interactive exploration
+## ▶️ How to Run the Project
 
-📄 License
-This project is licensed under the MIT License – see the LICENSE file for details.
-
-🤝 Contact
-For feedback, suggestions, or collaboration, feel free to connect:
-📧 pandeymanan637@gmail.com
-🔗 LinkedIn
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/yourusername/customer-segmentation.git
+   cd customer-segmentation
